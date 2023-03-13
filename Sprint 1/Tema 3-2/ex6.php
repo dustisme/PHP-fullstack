@@ -1,6 +1,6 @@
 <?php
 
-$per = rand();
+$per = rand(0, 100);
 isBitten($per);
 
 function isBitten($per)
