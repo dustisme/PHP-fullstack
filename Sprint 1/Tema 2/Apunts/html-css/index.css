@@ -1,0 +1,65 @@
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    height: 100%; /*la propietat height funciona perquè a basic.css
+     l'html, i el body estan especificades al 100% */
+    /*flex-direction: row;
+    justify-content: space-evenly;*/
+
+}
+
+/*.search {
+    margin-left: auto;
+
+}
+
+.container>div {
+    flex: 1;
+}*/
+
+.container>.search {
+    flex: 2;
+}
+
+.home {
+    flex-grow: 1; /*velocitat creix l'item*/
+    flex-shrink: 1; /*velocitat empetiteix l'item*/
+    flex-basis: 200px; /*espai q ocupa l'item*/
+}
+
+.logout {
+    flex: 1 1 200px;
+}
+
+/*.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+  }
+  
+   .home {
+    flex: 1;
+  }
+  
+  .logout {
+    flex: 1;
+  } 
+  
+  or
+  
+  .container > .home, .logout{
+    flex: 1;
+  }
+  
+  /////
+
+  .container {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: flex-end;
+}*/
+
+/* la propietat flex permet flexibilitats els items q apareixen en el browser independentment
+ de si la finestra es fa més gran o més petita */

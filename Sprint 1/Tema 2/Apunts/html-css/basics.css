@@ -1,0 +1,44 @@
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: #C1AEC1;
+    /* border: 5px solid; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.header>div {
+    height: auto;
+    width: auto;
+}
+
+.nav {
+    background-color: #BB4CBB;
+}
+
+.search {
+    background-color: #9EE5EF;
+}
+
+/* .content {
+    background-color: #9EE5EF;
+    flex-direction: column;
+}
+
+.content>div {
+    background-color: blue;
+}
+
+.footer {
+    background-color: #31cc65;
+} */
+
+html, body {
+  background-color: #ffeead;
+  margin: 10px;
+  max-width: 1200px;
+}
