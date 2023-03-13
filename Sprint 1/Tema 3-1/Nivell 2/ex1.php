@@ -1,5 +1,3 @@
-
-
 <html>
 <head>
     <title>Exercici 1</title>
