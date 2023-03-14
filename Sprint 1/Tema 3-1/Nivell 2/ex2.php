@@ -17,11 +17,8 @@ ba  -->
 </head>
 <body>
     <?php
-        $s1 = "qwerty";
-        $s2 = "d";
-        $s3 = "il";
-
-        
+       
+       
 
 
     ?>
